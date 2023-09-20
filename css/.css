@@ -24,7 +24,7 @@ body {
   }
   
   header a:hover {
-    background-color: darkblue;
+    background-color: #00008b;
   }
   
   nav {
@@ -35,6 +35,50 @@ body {
     padding: 50px;
     margin: 20px 0;
   }
+
+  .Vooraf{
+    background-color: #ffff00;
+    border-radius: 2em 2em;
+    max-width: 800px; 
+    margin: 0 auto;
+    border: 3px solid #00008b;
+  }
+  .Rooster{
+    background-color: #ffff00;
+    border-radius: 2em 2em;
+    max-width: 1100px; 
+    margin: 0 auto;
+    border: 3px solid #00008b;
+  }
+  .vakken{
+    background-color: #00008b;
+    border-radius: 2em 2em;
+    max-width: 1000px; 
+    margin: 0 auto;
+    border: 3px solid #ffff00;
+    color: black;
+    font-weight: bold;
+    
+  }
+  .Blok{
+    background-color: #00008b;
+    border-radius: 2em 2em;
+    max-width: 1100px; 
+    margin: 0 auto;
+    border: 3px solid #ffff00;
+    color: black;
+    font-weight: bold;
+    
+  }
+  .versnellen{
+    background-color: #ffff00;
+    border-radius: 2em 2em;
+    max-width: 800px; 
+    max height: 400px;
+    margin: 0 auto;
+    border: 3px solid #00008b;
+  }
+
   footer {
     background-color: #ffff00;
     color: rgb(0, 0, 0);
@@ -47,15 +91,13 @@ body {
 }
 
 .teacher-block {
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
+    background-color: #00008b;
+    border: 4px solid #ffff00;
     border-radius: 5px;
     padding: 20px;
     text-align: center;
 }
-img {
-    width: 400
-}
+
 
 .teacher-block img {
     max-width: 100%;
