@@ -10,25 +10,31 @@ body {
   }
   
   header {
-    background-color: #e4e429;
+    background-color: #dde025;
     color: #333;
     padding: 10px;
     text-align: center;
+    
+  }
+  .Curio{
+    color: #0e47b1;
+    font-size: 42px ;
   }
   
   header a {
     display: inline-block;
-    background-color: blue;
+    background-color: #160899;
     color: white;
     text-decoration: none;
     margin: 10px;
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    max-height: 20px;
   }
   
   header a:hover {
-    background-color: #00008b;
+    background-color: #25e0d0;
   }
   
   nav {
@@ -41,49 +47,61 @@ body {
   }
 
   .Vooraf{
-    background-color: #ffff00;
+    background-color: #dde025;
     border-radius: 2em 2em;
     max-width: 800px; 
     margin: 0 auto;
     border: 3px solid #00008b;
   }
   .Rooster{
-    background-color: #ffff00;
+    
     border-radius: 2em 2em;
     max-width: 1100px; 
     margin: 0 auto;
-    border: 3px solid #00008b;
+   
   }
   .vakken{
-    background-color: #00008b;
-    border-radius: 2em 2em;
-    max-width: 1000px; 
-    margin: 0 auto;
-    border: 3px solid #ffff00;
-    color: black;
-    font-weight: bold;
-    
-  }
-  .Blok{
-    background-color: #00008b;
-    border-radius: 2em 2em;
-    max-width: 1100px; 
-    margin: 0 auto;
-    border: 3px solid #ffff00;
-    color: black;
-    font-weight: bold;
-    
-  }
-  .versnellen{
-    background-color: #ffff00;
+   
     border-radius: 2em 2em;
     max-width: 800px; 
     margin: 0 auto;
-    border: 3px solid #00008b;
+    color: black;
+  }
+
+  .yellow-background{
+    background-color: #dde025;
+    color: black;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .resize1{
+    width: 100%;
+    height: auto;
+  }
+  .resize2{
+    width: 100%;
+    height: auto;
+  }
+  .img-container{
+    width: 80%;
+    height: auto;
+  }
+  .Blok{
+    
+    border-radius: 2em 2em;
+    max-width: 1100px; 
+    margin: 0 auto;
+    color: black;
+  }
+  .versnellen{
+    border-radius: 2em 2em;
+    max-width: 800px; 
+    margin: 0 auto;
   }
 
   footer {
-    background-color: #ffff00;
+    background-color: #dde025;
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 10px;
@@ -91,14 +109,20 @@ body {
   .teacher-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
+    gap: 10px;
 }
 
 .teacher-block {
     background-color: #00008b;
-    border: 4px solid #ffff00;
-    border-radius: 5px;
+    border-radius: 3px;
     padding: 20px;
     text-align: center;
+    color: white;
+}
+.background-image {
+    background-image: url("img/curio-roosendaal");
+    background-size: cover; 
+    background-repeat: no-repeat;
 }
 
 
